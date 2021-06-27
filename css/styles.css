@@ -1,0 +1,821 @@
+body {
+  margin: 0;
+}
+
+.header_h1 {
+  color: #EEEEEE;
+  font-size: 80px;
+  font-family: 'Yellowtail', cursive;
+  letter-spacing: .2vh;
+  margin: 0;
+  position: relative;
+  top: 190px;
+  left: 70px;
+}
+
+.header_h2 {
+  color: #444444;
+  font-size: 60px;
+  font-family: 'Baloo Da 2', cursive;
+  position: relative;
+  top: 220px;
+  left: 70px;
+}
+
+.avatar {
+  width: 70vh;
+  height: 70vh;
+  border-radius: 10vh 40vh 40vh 10vh;
+  animation: move 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+  left: 120px;
+}
+
+.header {
+  background-color: black;
+  width: auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.inner {
+  text-align: left;
+  margin-left: 10vh;
+  margin: 0;
+}
+.about_sec {
+  background-color: #F1F6F9;
+}
+
+.me{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 5vh;
+  padding-top: 2vh;
+}
+
+.innerdiv_1 {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.innerdiv_2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.introD {
+  font-size: 7vh;
+  margin-left: 7vh;
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: bold;
+  color: #C004D9;
+}
+
+.aca_avtr {
+  height: 50vh;
+  width: 50vh;
+  margin-top: 7vh;
+  margin-left: 7vh;
+  margin-bottom: 9vh;
+}
+
+.introPara {
+  font-size: 2.5vh;
+  margin-left: 40vh;
+  margin-top: 27vh;
+  word-spacing: .3vh;
+  line-height: 4vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  color:#393E46;
+}
+
+.academics {
+  font-size: 7vh;
+  margin-left: 75vh;
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: bold;
+  color: #C004D9;
+}
+
+.avatar_2 {
+  height: 50vh;
+  width: 50vh;
+  margin-top: 7vh;
+  margin-left: 75vh;
+  margin-bottom: 9vh;
+}
+
+
+
+.academics_wrapper {
+  text-align: left;
+  margin-left: 2.5vh;
+}
+
+
+
+li {
+  font-size: 2.5vh;
+  word-wrap: break-word;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color:#393E46;
+}
+
+
+.academic_h1 {
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: bold;
+  color:#F23869;
+}
+.skills_h2{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 5vh;
+  padding-top: 2vh;
+  color:#444444;
+}
+.skills_wrapper{
+  background-color: black;
+}
+.html_icon{
+  height: 7vh;
+  width:7vh;
+}
+.html{
+  background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+  width:145vh;
+  display: flex;
+  margin-left: 7vh;
+    border-radius:2px 4vh 4vh 2px;
+}
+.html_h3{
+font-family:'Nunito', sans-serif;
+top:2vh;
+font-size: 5vh;
+font-weight: bold;
+}
+.html_icon{
+  height: 7vh;
+  width:7vh;
+}
+
+
+.css{
+  background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+  width:140vh;
+  display: flex;
+  margin-top:2vh;
+    margin-left: 7vh;
+      border-radius:2px 4vh 4vh 2px;
+}
+.css_h3{
+font-family:'Nunito', sans-serif;
+top:2vh;
+font-size: 5vh;
+font-weight: bold;
+}
+.css_icon{
+  height: 7vh;
+  width:7vh;
+}
+.js{
+  background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+  width:90vh;
+  display: flex;
+  margin-top: 2vh;
+    margin-left: 7vh;
+      border-radius:2px 4vh 4vh 2px;
+}
+.js_h3{
+font-family:'Nunito', sans-serif;
+top:2vh;
+font-size: 5vh;
+font-weight: bold;
+}
+.js_icon{
+  height: 7vh;
+  width:7vh;
+}
+
+.cpp{
+  background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+  width:150vh;
+  display: flex;
+  margin-top: 2vh;
+    margin-left: 7vh;
+      border-radius:2px 4vh 4vh 2px;
+}
+.cpp_h3{
+font-family:'Nunito', sans-serif;
+top:2vh;
+font-size: 5vh;
+font-weight: bold;
+}
+.cpp_icon{
+  height: 7vh;
+  width:7vh;
+}
+
+.java{
+  background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+  width:150vh;
+  display: flex;
+  margin-top: 2vh;
+    margin-left: 7vh;
+      border-radius:2px 4vh 4vh 2px;
+}
+.java_h3{
+font-family:'Nunito', sans-serif;
+top:2vh;
+font-size: 5vh;
+font-weight: bold;
+}
+.java_icon{
+  height: 7vh;
+  width:7vh;
+}
+
+.kotlin{
+  background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+  width:95vh;
+  display: flex;
+  margin-top: 2vh;
+    margin-left: 7vh;
+      border-radius:2px 4vh 4vh 2px;
+}
+.kotlin_h3{
+font-family:'Nunito', sans-serif;
+top:2vh;
+font-size: 5vh;
+font-weight: bold;
+}
+.kotlin_icon{
+  height: 7vh;
+  width:7vh;
+}
+
+.bootstrap{
+  background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+  width:90vh;
+  display: flex;
+  margin-top: 2vh;
+    margin-left: 7vh;
+    margin-bottom: 5vh;
+      border-radius:2px 4vh 4vh 2px;
+}
+.bootstrap_h3{
+font-family:'Nunito', sans-serif;
+top:2vh;
+font-size: 5vh;
+font-weight: bold;
+}
+.bootstrap_icon{
+  height: 7vh;
+  width:7vh;
+}
+
+.skills_para{
+  font-family:'Roboto', sans-serif;
+  font-size: 3.5vh;
+  color:#536162;
+  font-weight: bolder;
+  margin-left: 7vh;
+  margin-bottom: 0;
+  word-spacing: .5vh;
+  padding-bottom: 4vh;
+}
+
+.projects_certificate{
+  display: flex;
+  flex-direction: row;
+  background-color: #CDF0EA;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 45vh;
+  left: 7vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1vh;
+  margin-right: 5vh;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px;
+  text-align: center;
+  font-family:'Baloo Da 2', cursive;
+  font-weight: bold;
+}
+.image{
+  text-align: center;
+}
+.illustrations{
+  width:40vh;
+  height: 40vh;
+}
+.card_btn{
+  background-image:radial-gradient(#5C33F6 ,#A239EA 75%);
+  width:25vh;
+  height:5vh;
+  border-radius: 5vh;
+  font-size: 2.5vh;
+  font-family: 'Nunito', sans-serif;
+  font-weight:bolder;
+  letter-spacing:.3vh;
+}
+
+.proj_sec{
+  background-color: #CDF0EA;
+}
+.proj_h3{
+  font-family:  'Nunito', sans-serif;
+  font-weight: bolder;
+  padding-top: 6vh;
+  padding-bottom: 4vh;
+}
+
+.queries{
+  background-color: black;
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  font-size: 3.5vh;
+  color:#536162;
+  font-weight: bolder;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.mail{
+  background-image:linear-gradient( to left,#13DCF2 10%,#C729F2);
+  font-family:'Nunito', sans-serif;
+  font-weight: bolder;
+font-size: 4vh;
+border-radius: 4vh;
+width:30vh;
+letter-spacing: .3vh;
+margin-top: 9vh;
+margin-bottom: 10vh;
+}
+
+.footer{
+  background-color: black;
+  text-align:center;
+  word-spacing: 2.5vh;
+}
+.footer_p{
+  word-spacing:.1vh;
+  color:white;
+  margin-bottom: 0;
+  margin-top:2vh;
+}
+
+/* ==================================================MEDIAQUERY============================================== */
+@media only screen and (max-width: 600px) {
+  .header_h1 {
+    color: #EEEEEE;
+    font-size: 50px;
+    font-family: 'Yellowtail', cursive;
+    margin: 0;
+    position: relative;
+    top: 70px;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header_h2 {
+    color: #444444;
+    font-size: 40px;
+    font-family: 'Baloo Da 2', cursive;
+    position: relative;
+    top: 80px;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .avatar {
+    height: 40vh;
+    width: 40vh;
+    left: 40px;
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    background-color: black;
+    width: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .inner {
+    text-align: center;
+    left: 0;
+    display: block;
+  }
+}
+@media only screen and (max-width:600px){
+  .about_sec {
+    background-color:#DFEEEA ;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .innerdiv_1 {
+    flex-direction: column;
+    text-align: center;
+    background-color: #DFEEEA;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .innerdiv_2 {
+    display: flex;
+    flex-direction: column-reverse;
+      background-color: #DFEEEA;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .introD {
+    margin-top: 3vh;
+    font-size: 5vh;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aca_avtr {
+    height: 30vh;
+    width: 30vh;
+    margin-top: 3vh;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .introPara {
+    font-size: 2.5vh;
+    margin-left: 1vh;
+    margin-top: 5vh;
+    word-spacing: .3vh;
+    line-height: 3.5vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 7vh;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .academics {
+    font-size: 5vh;
+    margin-left: 0;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .avatar_2 {
+    height: 30vh;
+    width: 30vh;
+    margin-top: 3vh;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .academics_wrapper {
+    text-align: left;
+    margin-left: 1vh;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  li {
+    font-size: 2vh;
+    word-wrap: break-word;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .academic_h1 {
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: bold;
+    font-size: 3vh;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .me{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    padding-top:3vh;
+    margin-bottom: 3vh;
+    font-size: 3vh;
+  }
+}
+@media only screen and (max-width:600px){
+
+  .html{
+    background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+    width:47vh;
+    display: flex;
+    margin-left: 0;
+    border-radius:2px 3vh 3vh 2px;
+  }
+  .html_h3{
+  font-family:'Nunito', sans-serif;
+  top:2vh;
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-bottom: 4px;
+  }
+  .html_icon{
+    height: 7vh;
+    width:7vh;
+  }
+
+
+  .css{
+    background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+    width:45vh;
+    display: flex;
+    margin-top:2vh;
+      margin-left: 0;
+        border-radius:2px 3vh 3vh 2px;
+  }
+  .css_h3{
+  font-family:'Nunito', sans-serif;
+  top:2vh;
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-bottom: 4px;
+  }
+
+  .js{
+    background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+    width:39vh;
+    display: flex;
+    margin-top: 2vh;
+      margin-left: 0;
+        border-radius:2px 3vh 3vh 2px;
+  }
+  .js_h3{
+  font-family:'Nunito', sans-serif;
+  top:2vh;
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-bottom: 4px;
+  }
+
+  .cpp{
+    background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+    width:47vh;
+    display: flex;
+    margin-top: 2vh;
+      margin-left: 0;
+        border-radius:2px 3vh 3vh 2px;
+  }
+  .cpp_h3{
+  font-family:'Nunito', sans-serif;
+  top:2vh;
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-bottom: 4px;
+  }
+
+
+  .java{
+    background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+    width:47vh;
+    display: flex;
+    margin-top: 2vh;
+      margin-left: 0;
+        border-radius:2px 3vh 3vh 2px;
+  }
+  .java_h3{
+  font-family:'Nunito', sans-serif;
+  top:2vh;
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-bottom: 4px;
+  }
+
+
+  .kotlin{
+    background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+    width:40vh;
+    display: flex;
+    margin-top: 2vh;
+      margin-left: 0;
+        border-radius:2px 3vh 3vh 2px;
+  }
+  .kotlin_h3{
+  font-family:'Nunito', sans-serif;
+  top:2vh;
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-bottom: 4px;
+  }
+
+
+  .bootstrap{
+    background-image: linear-gradient(to left,#FF00FF,#00FDFF);
+    width:37vh;
+    display: flex;
+    margin-top: 2vh;
+      margin-left: 0;
+      margin-bottom: 5vh;
+        border-radius:2px 3vh 3vh 2px;
+  }
+  .bootstrap_h3{
+  font-family:'Nunito', sans-serif;
+  top:2vh;
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-bottom: 4px;
+  }
+
+
+  .skills_para{
+    font-family:'Roboto', sans-serif;
+    font-size: 3vh;
+    color:#536162;
+    font-weight: bolder;
+    margin-left: 1vh;
+    word-spacing: .5vh;
+    padding-bottom: 4vh;
+  }
+  .skills_h2{
+    font-size: 4vh;
+  }
+}
+@media only screen and (max-width:600px){
+  .html_icon{
+    height:4.5vh;
+    width:4.5vh;
+  }
+  .css_icon{
+    height:4.5vh;
+    width:4.5vh;
+  }
+  .js_icon{
+    height:4.5vh;
+    width:4.5vh;
+  }
+  .cpp_icon{
+    height:4.5vh;
+    width:4.5vh;
+  }
+  .java_icon{
+    height:4.5vh;
+    width:4.5vh;
+  }
+  .kotlin_icon{
+    height:4.5vh;
+    width:4.5vh;
+  }
+  .bootstrap_icon{
+    height:4.5vh;
+    width:4.5vh;
+  }
+
+}
+
+@media only screen and (max-width:600px){
+  .projects_certificate{
+    display: flex;
+    flex-direction: column;
+    background-color: #CDF0EA;
+    padding-top: 4vh;
+
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 45vh;
+    left: 2.5vh;
+margin-bottom: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1vh;
+padding-bottom: 1vh;
+  }
+
+  .card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    padding: 2px;
+    text-align: center;
+    font-family:'Baloo Da 2', cursive;
+    font-weight: bold;
+  }
+  .image{
+    text-align: center;
+  }
+  .illustrations{
+    width:40vh;
+    height: 40vh;
+  }
+  .card_btn{
+    background-image:radial-gradient(#5C33F6 30%,#A239EA);
+    width:25vh;
+    height:5vh;
+    border-radius: 5vh;
+    font-size: 2.5vh;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bolder;
+  }
+  .proj_h3{
+    font-family:  'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5vh;
+    padding-top: 4vh;
+  }
+
+}
+
+@media only screen and (max-width:600px){
+  .queries{
+    background-color: black;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 3vh;
+    color:#536162;
+    font-weight: bolder;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+  }
+
+  .mail{
+    background-image:linear-gradient( to left,#13DCF2 10%,#C729F2);
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+  font-size: 3vh;
+  border-radius: 4vh;
+  width:25vh;
+  letter-spacing: .3vh;
+  margin-top: 9vh;
+  }
+}
+
+/* ==================================================ANIMATION============================================== */
+@keyframes move {
+  0% {
+    margin-top: 110px
+  }
+
+  50% {
+    margin-top: 10vh
+  }
+
+  100% {
+    margin-top: 110px
+  }
+}
+
+
+/* ================================================HOVER EFFECT============================================== */
+
+.innerdiv_1:hover {
+  background-color: #DFEEEA;
+}
+
+.innerdiv_2:hover {
+  background-color: #DFEEEA;
+}
+
+.card:hover .card_btn{
+background-image:radial-gradient(#5C33F6 ,#A239EA 1%);
+  width:22vh;
+  height:6vh;
+}
